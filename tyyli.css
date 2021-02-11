@@ -6,6 +6,10 @@ Body {
 	
 }
 
+h1 {
+	text-shadow: vertical;
+}
+
 div.a {
 	width: 800px;
 }
