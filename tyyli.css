@@ -2,6 +2,9 @@ Body {
 	color: #006666;
 	font-family: calibri;
 	background-image: linear-gradient(to bottom right, lightblue, gold);
+	margin-left: auto;
+	margin-right: auto;
+	width:70%;
 }
 
 p {
