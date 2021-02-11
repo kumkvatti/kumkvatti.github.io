@@ -1,13 +1,17 @@
 Body {
-	color: green;
-	background-color: #F0FFF0;
+	color: #006666;
 	font-family: calibri;
-	
-	
+	background-image: linear-gradient(to bottom right, lightblue, gold);
 }
 
-ul {list-style-type: none;}
+p {
+	color: #003333;
+}
 
+
+ul {
+	list-style-type: none;
+	}
 
 div.a {
 	width: 800px;
@@ -23,4 +27,8 @@ div.c {
 
 div.d {
 	text-align: center;
+}
+
+hr {
+	border: 1px solid #00e6e6;
 }
