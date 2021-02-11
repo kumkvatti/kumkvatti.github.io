@@ -4,3 +4,7 @@ Body {
 	font-family: calibri;
 	
 }
+
+div {
+  column-width: 1000px;
+}
