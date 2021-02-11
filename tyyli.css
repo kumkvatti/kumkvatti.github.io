@@ -2,9 +2,6 @@ Body {
 	color: green;
 	background-color: #F0FFF0;
 	font-family: calibri;
+	width: 800px;
 	
-}
-
-div {
-  column-width: 800px;
 }
