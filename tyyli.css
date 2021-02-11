@@ -2,6 +2,23 @@ Body {
 	color: green;
 	background-color: #F0FFF0;
 	font-family: calibri;
-	width: 800px;
 	
+	
+}
+
+div.a {
+	width: 800px;
+}
+
+div.b {
+	width: 600px;
+	text-align: right;
+}
+
+div.c {
+	width: 600px;
+}
+
+div.d {
+	text-align: center;
 }
