@@ -1,11 +1,38 @@
 Body {
 	color: #006666;
 	font-family: calibri;
-	background-image: linear-gradient(to bottom right, lightblue, gold);
+	background-image: linear-gradient(to bottom right, #00e6e6, ivory);
 	margin-left: auto;
 	margin-right: auto;
 	width:70%;
 }
+
+#laatikko {
+	border: 3px;
+	border-style: solid;
+	border-color:  oldlace;
+	border-radius: 25px 25px 25px 25px;
+	background-color: oldlace;
+	margin: 35px;
+	padding: 55px;
+}
+
+
+h1 {
+	width: 300px;
+	border: 2px;
+	border-style: solid;
+	border-color: oldlace;
+	border-radius: 5px 5px 75px 5px;
+	background-color: #00e6e6;
+	margin-left: 15px;
+	padding-left: 15px;
+}
+
+h2 {
+	padding-top: 35px;
+}
+
 
 p {
 	color: #003333;
@@ -16,19 +43,19 @@ ul {
 	list-style-type: none;
 	}
 
-div.a {
+.a {
 	width: 800px;
 }
 
-div.b {
+.b {
 	width: 600px;
 }
 
-div.c {
+.c {
 	width: 600px;
 }
 
-div.d {
+.d {
 	text-align: center;
 }
 
