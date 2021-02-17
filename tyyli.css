@@ -5,30 +5,26 @@ ul {
 
 a:link {
 	text-decoration: none;
-  
+	font-weight: bold;
 }
 
 h1 {
 	font-size: 55px;
-	
 }
 
 h2 {
 	font-size: 35px;
-
 }
 
 p {
 	font-size: 16px;
-	
 }
-/*
-#container {
-	margin-left: auto;
-	margin-right: auto;
-	width:70%;
+
+.kuvasivu2 {
+	height: 200px;
 }
-*/
+
+
 Body {
 	color: #006666;
 	font-family: calibri;
@@ -39,35 +35,35 @@ Body {
 }
 
 #header {
-	background-color: black;
+	background-color: #003333;
 	padding: 30px;
 	text-align: center;
-	color: white;
+	color: #e6ffff;
 	margin-top: 5px;
 	margin-bottom: 5px;
 	}
 	
 #nav {
 	text-align: center;
-	background-color: grey;
+	background-color: #001a1a;
 	padding-left: 60px;
 	padding-right: 60px;
-	padding-top: 5px;
-	padding-bottom: 5px;
-	color: white;
+	padding-top: 10px;
+	padding-bottom: 10px;
+	color: #e6ffff;
 	margin-top: 5px;
 	margin-bottom: 5px;
   	margin-left: auto;
 	margin-right: auto;
-	text-decoration: none;
+	
 }
 
 #footer {
 	clear: left;
-	background-color: grey;
+	background-color: #001a1a;
 	padding: 10px;
 	text-align: center;
-	color: white;
+	color: #e6ffff;
 	margin-top: 5px;
 	margin-bottom: 5px;
   	margin-left: auto;
@@ -94,8 +90,8 @@ Body {
 	padding-right: 60px;
 	padding-top: 60px;
 	padding-bottom: 60px;
-	background-color: white;
-	color: black;
+	background-color: #e6ffff;
+	color: #003333;
 	margin-top: 5px;
 	margin-bottom: 5px;
   	margin-left: auto;
@@ -112,8 +108,8 @@ Body {
 	padding-right: 60px;
 	padding-top: 60px;
 	padding-bottom: 60px;
-	background-color: black;
-	color: white;
+	background-color: #003333;
+	color: #e6ffff;
 	margin-top: 5px;
 	margin-bottom: 5px;
   	margin-left: auto;
@@ -139,8 +135,8 @@ Body {
 	padding-right: 150px;
 	padding-top: 100px;
 	padding-bottom: 100px;
-	background-color: white;
-	color: black;	
+	background-color: #e6ffff;
+	color: #003333;	
 	margin-top: 5px;
 	margin-bottom: 5px;
   	margin-left: auto;
@@ -154,8 +150,8 @@ Body {
 	padding-right: 150px;
 	padding-top: 100px;
 	padding-bottom: 100px;
-	background-color: black;
-	color: white;
+	background-color: #003333;
+	color: #e6ffff;
 	margin-top: 5px;
 	margin-bottom: 5px;
   	margin-left: auto;
@@ -168,8 +164,8 @@ Body {
 	padding-right: 150px;
 	padding-top: 100px;
 	padding-bottom: 100px;
-	background-color: white;
-	color: black;
+	background-color: #e6ffff;
+	color: #003333;
 	margin-top: 5px;
 	margin-bottom: 5px;
   	margin-left: 5px;
@@ -182,8 +178,8 @@ Body {
 	padding-right: 150px;
 	padding-top: 100px;
 	padding-bottom: 100px;
-	background-color: black;
-	color: white;
+	background-color: #003333;
+	color: #e6ffff;
 	margin-top: 5px;
 	margin-bottom: 5px;
   	margin-left: 5px;
@@ -197,8 +193,8 @@ Body {
 	padding-right: 100px;
 	padding-top: 100px;
 	padding-bottom: 100px;
-	background-color: white;
-	color: black;	
+	background-color: #e6ffff;
+	color: #003333;	
 }
 
 /*
