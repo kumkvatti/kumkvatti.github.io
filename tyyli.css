@@ -1,99 +1,103 @@
-Body {
-	color: #006666;
-	font-family: calibri;
-	background-image: linear-gradient(to right, #00e6e6, ivory);
+ul {
+	list-style-type: none;
 	
+	}
+
+a:link {
+	text-decoration: none;
+  
 }
 
 h1 {
 	font-size: 55px;
-}
-
-h2 {font-size: 35px;
-}
-
-
-p {
 	
 }
 
+h2 {
+	font-size: 35px;
 
-ul {
-	list-style-type: none;
-	}
-/*
-#kuuntelukuva {
-	width: 50%
-	float: right;
-		  margin-top: 5px;
-  margin-bottom: 5px;
-  	margin-left: auto;
-	margin-right: 0px;
 }
-*/
 
-
+p {
+	font-size: 16px;
+	
+}
+/*
 #container {
 	margin-left: auto;
 	margin-right: auto;
 	width:70%;
 }
-
-
+*/
+Body {
+	color: #006666;
+	font-family: calibri;
+	background-image: linear-gradient(to right, #00e6e6, ivory);
+	margin-left: auto;
+	margin-right: auto;
+	width:70%;
+}
 
 #header {
 	background-color: black;
 	padding: 30px;
 	text-align: center;
 	color: white;
-
+	margin-top: 5px;
+	margin-bottom: 5px;
 	}
-
-#header2 {
-	
-}
 	
 #nav {
-  text-align: center;
-  background-color: grey;
-  padding-left: 60px;
-  padding-right: 60px;
-  padding-top: 5px;
-  padding-bottom: 5px;
-  color: white;
-  margin-top: 5px;
-  margin-bottom: 5px;
+	text-align: center;
+	background-color: grey;
+	padding-left: 60px;
+	padding-right: 60px;
+	padding-top: 5px;
+	padding-bottom: 5px;
+	color: white;
+	margin-top: 5px;
+	margin-bottom: 5px;
   	margin-left: auto;
 	margin-right: auto;
 	text-decoration: none;
 }
 
-a:link {
-  text-decoration: none;
+#footer {
+	clear: left;
+	background-color: grey;
+	padding: 10px;
+	text-align: center;
+	color: white;
+	margin-top: 5px;
+	margin-bottom: 5px;
+  	margin-left: auto;
+	margin-right: auto;
 }
 
-#left-column {
+/*page1*/
+
+#leftcolumn2 {
 	float: left;
-	width: 40%;
+	width: 50%;
 }
 	
-#right-column {
+#rightcolumn2 {
 	float: left;
-	width: 60%;
+	width: 50%;
 }
 
 
 #section1 {
 	
-float: left;
-  padding-left: 60px;
-  padding-right: 60px;
-  padding-top: 5px;
-  padding-bottom: 5px;
+	float: left;
+	padding-left: 60px;
+	padding-right: 60px;
+	padding-top: 60px;
+	padding-bottom: 60px;
 	background-color: white;
 	color: black;
-  margin-top: 5px;
-  margin-bottom: 5px;
+	margin-top: 5px;
+	margin-bottom: 5px;
   	margin-left: auto;
 	margin-right: 0px;
 	width: 50%;
@@ -104,89 +108,120 @@ float: left;
 #section2 {
 	
 	float: left;
-	  padding-left: 60px;
-  padding-right: 60px;
-  padding-top: 60px;
-  padding-bottom: 60px;
+	padding-left: 60px;
+	padding-right: 60px;
+	padding-top: 60px;
+	padding-bottom: 60px;
 	background-color: black;
 	color: white;
-	  margin-top: 5px;
-  margin-bottom: 5px;
+	margin-top: 5px;
+	margin-bottom: 5px;
   	margin-left: auto;
 	margin-right: 0px;
 	width: 50%;
 	
 }
 
+#sectionx {
+	text-align: center;
+}
+
+#kuuntelukuva {
+	margin-top: 5px;
+	height: 810px;
+}
+
+/*page2*/
+
+#section3 {
+	text-align: center;
+	padding-left: 150px;
+	padding-right: 150px;
+	padding-top: 100px;
+	padding-bottom: 100px;
+	background-color: white;
+	color: black;	
+	margin-top: 5px;
+	margin-bottom: 5px;
+  	margin-left: auto;
+	margin-right: 5px;
+}
+
+#section4 {
+	
+	text-align: center;
+	padding-left: 150px;
+	padding-right: 150px;
+	padding-top: 100px;
+	padding-bottom: 100px;
+	background-color: black;
+	color: white;
+	margin-top: 5px;
+	margin-bottom: 5px;
+  	margin-left: auto;
+	margin-right: 5px;
+}
+
+#section5 {
+	text-align: center;
+	padding-left: 150px;
+	padding-right: 150px;
+	padding-top: 100px;
+	padding-bottom: 100px;
+	background-color: white;
+	color: black;
+	margin-top: 5px;
+	margin-bottom: 5px;
+  	margin-left: 5px;
+	margin-right: auto;	
+}
+
+#section6 {
+	text-align: center;
+	padding-left: 150px;
+	padding-right: 150px;
+	padding-top: 100px;
+	padding-bottom: 100px;
+	background-color: black;
+	color: white;
+	margin-top: 5px;
+	margin-bottom: 5px;
+  	margin-left: 5px;
+	margin-right: auto;
+}
+
+/*page3*/
+
+#section7 {
+	padding-left: 100px;
+	padding-right: 100px;
+	padding-top: 100px;
+	padding-bottom: 100px;
+	background-color: white;
+	color: black;	
+}
+
+/*
+#kuuntelukuva {
+	width: 50%
+	float: right;
+		  margin-top: 5px;
+  margin-bottom: 5px;
+  	margin-left: auto;
+	margin-right: 0px;
+}
+
 #kuva1 {
 	
 	float: right;
 	padding: none;
-  margin-top: 5px;
-  margin-bottom: 5px;
+	margin-top: 5px;
+	margin-bottom: 5px;
   	margin-left: 0px;
 	margin-right: auto;
 	width: 50%;
 	overflow: hidden;
 	
 }
+
 */
-
-#footer {
-	clear: left;
-	background-color: grey;
-	padding: 10px;
-	text-align: center;
-	color: white;
-	  margin-top: 5px;
-  margin-bottom: 5px;
-  	margin-left: auto;
-	margin-right: auto;
-}
-
-#section3 {
-  padding-left: 60px;
-  padding-right: 60px;
-  padding-top: 5px;
-  padding-bottom: 5px;
-	background-color: white;
-	color: black;	
-}
-
-#section4 {
-	
-	  padding-left: 60px;
-  padding-right: 60px;
-  padding-top: 60px;
-  padding-bottom: 60px;
-	background-color: black;
-	color: white;
-}
-
-#section5 {
-	padding-left: 60px;
-  padding-right: 60px;
-  padding-top: 5px;
-  padding-bottom: 5px;
-	background-color: white;
-	color: black;	
-}
-
-#section6 {
-	  padding-left: 60px;
-  padding-right: 60px;
-  padding-top: 60px;
-  padding-bottom: 60px;
-	background-color: black;
-	color: white;
-}
-
-#section7 {
-	padding-left: 60px;
-  padding-right: 60px;
-  padding-top: 5px;
-  padding-bottom: 5px;
-	background-color: white;
-	color: black;	
-}
-
