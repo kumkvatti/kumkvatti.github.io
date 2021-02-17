@@ -8,6 +8,10 @@ a:link {
 	font-weight: bold;
 }
 
+a.hoverred:hover {
+	color: red;
+}
+
 h1 {
 	font-size: 55px;
 }
@@ -16,9 +20,7 @@ h2 {
 	font-size: 35px;
 }
 
-p {
-	font-size: 16px;
-}
+
 
 .kuvasivu2 {
 	height: 200px;
@@ -28,6 +30,7 @@ p {
 Body {
 	color: #006666;
 	font-family: calibri;
+	font-size: 16px;
 	background-image: linear-gradient(to right, #00e6e6, ivory);
 	margin-left: auto;
 	margin-right: auto;
@@ -45,7 +48,7 @@ Body {
 	
 #nav {
 	text-align: center;
-	background-color: #001a1a;
+	background-color: #008080;
 	padding-left: 60px;
 	padding-right: 60px;
 	padding-top: 10px;
@@ -58,9 +61,11 @@ Body {
 	
 }
 
+
+
 #footer {
 	clear: left;
-	background-color: #001a1a;
+	background-color: #008080;
 	padding: 10px;
 	text-align: center;
 	color: #e6ffff;
@@ -133,8 +138,8 @@ Body {
 	text-align: center;
 	padding-left: 150px;
 	padding-right: 150px;
-	padding-top: 100px;
-	padding-bottom: 100px;
+	padding-top: 110px;
+	padding-bottom: 135px;
 	background-color: #003333;
 	color: #e6ffff;
 	margin-top: 5px;
@@ -148,8 +153,8 @@ Body {
 	text-align: center;
 	padding-left: 150px;
 	padding-right: 150px;
-	padding-top: 100px;
-	padding-bottom: 100px;
+	padding-top: 110px;
+	padding-bottom: 120px;
 	background-color: #e6ffff;
 	color: #003333;	
 	margin-top: 5px;
@@ -188,6 +193,19 @@ Body {
 
 /*page3*/
 
+#nav2 {
+	padding-left: 100px;
+	padding-right: 100px;
+	padding-top: 100px;
+	padding-bottom: 245px;
+	background-color: #003333;
+	color: #e6ffff;
+	margin-top: 5px;
+	margin-bottom: 5px;
+  	margin-left: auto;
+	margin-right: 5px;
+}
+
 #section7 {
 	padding-left: 100px;
 	padding-right: 100px;
@@ -195,6 +213,10 @@ Body {
 	padding-bottom: 100px;
 	background-color: #e6ffff;
 	color: #003333;	
+	margin-top: 5px;
+	margin-bottom: 5px;
+  	margin-left: 5px;
+	margin-right: auto;
 }
 
 /*
