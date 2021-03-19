@@ -22,3 +22,11 @@ h2 {
 	text-align: center;
 }
 
+
+body {
+	background-image: linear-gradient(to right, #63b4cf, ivory);
+}
+
+.jumbotron {
+	background-color: #63b4cf;
+}
