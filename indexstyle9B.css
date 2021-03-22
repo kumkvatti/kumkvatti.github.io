@@ -1,22 +1,30 @@
-.nav {
+.navbar {
+	background-color: #316856;
 	
 }
 
-.row {
+.container {
+	background-color: #b9dfd4;
+	text-align: center;
+	color: #20463b;
 	
 }
 
-
+.jumbotron {
+	background-image: linear-gradient(to bottom right, #e6994c, #b8997a, #999999);
+	color: #20463b;
+	font-weight: bold;
+}
 
 ul {
 	list-style-type: none;
 }
 
-a:link {
+a {
 	text-decoration: none;
 	font-weight: bold;
+	color: #e6994c;
 }
-
 		
 h2 {
 	text-align: center;
@@ -24,9 +32,7 @@ h2 {
 
 
 body {
-	background-image: linear-gradient(to right, #63b4cf, ivory);
+	background-color: #eef7f4;
+	font-type: georgia;
 }
 
-.jumbotron {
-	background-color: #63b4cf;
-}
