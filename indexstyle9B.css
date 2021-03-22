@@ -1,0 +1,32 @@
+.nav {
+	
+}
+
+.row {
+	
+}
+
+
+
+ul {
+	list-style-type: none;
+}
+
+a:link {
+	text-decoration: none;
+	font-weight: bold;
+}
+
+		
+h2 {
+	text-align: center;
+}
+
+
+body {
+	background-image: linear-gradient(to right, #63b4cf, ivory);
+}
+
+.jumbotron {
+	background-color: #63b4cf;
+}
