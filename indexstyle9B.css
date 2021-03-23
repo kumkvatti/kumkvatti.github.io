@@ -7,6 +7,7 @@
 	background-color: #b9dfd4;
 	text-align: center;
 	color: #20463b;
+	font-family: Verdana, sans-serif;
 	
 }
 
@@ -14,6 +15,7 @@
 	background-image: linear-gradient(to bottom right, #e6994c, #b8997a, #999999);
 	color: #20463b;
 	font-weight: bold;
+	font-family: Verdana, sans-serif;
 }
 
 ul {
@@ -24,7 +26,13 @@ a {
 	text-decoration: none;
 	font-weight: bold;
 	color: #e6994c;
+	font-family: Verdana, sans-serif;
 }
+
+h1 {
+	text-align: center;
+}
+
 		
 h2 {
 	text-align: center;
@@ -33,6 +41,6 @@ h2 {
 
 body {
 	background-color: #eef7f4;
-	font-type: georgia;
 }
 
+/* colors #eef7f4; #b9dfd4; #20463b; #316856; /*
