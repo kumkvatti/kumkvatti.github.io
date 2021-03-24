@@ -1,6 +1,6 @@
 .navbar {
 	background-color: #316856;
-	
+	color: #eef7f4;
 }
 
 .container {
@@ -24,7 +24,6 @@ ul {
 a {
 	text-decoration: none;
 	font-weight: bold;
-	color: #eef7f4;
 	font-family: "Georgia", serif;
 }
 
