@@ -1,0 +1,86 @@
+.navbar {
+	background-color: black;
+}
+
+.container {
+	background-color: none;
+	text-align: center;
+	color: black;
+	font-family: "Georgia", serif;
+
+	
+}
+
+
+/*
+.row {
+	padding: 50px;
+}
+
+div.background {
+  background: url(lampi.jpg);
+}
+*/
+
+/* colors #eef7f4; #b9dfd4; #316856; <p><img class="rounded-circle" src="https://github.com/kumkvatti/kumkvatti.github.io/blob/main/logo.jpg?raw=true" alt="logo" width="150"></p> /*
+
+/* background-image: url('ruoho.jpg'); */
+
+.jumbotron {
+	background-image: url('ruoho4.jpg');
+	background-color: black;
+	color: white;
+	font-weight: bold;
+	font-family: "Georgia", serif;
+	padding-top: 100px;
+	padding-bottom: 100px;
+
+}
+
+ul {
+	list-style-type: none;
+}
+
+a {
+	text-decoration: none;
+	font-weight: bold;
+	font-family: "Georgia", serif;
+	color: #2db92d;
+}
+
+a:hover {
+  color: #84e184;
+}
+
+h1 {
+	text-align: center;
+	
+}
+
+		
+h2 {
+	text-align: center;
+}
+
+h3 {
+	text-align: center;
+}
+
+body {
+	background-color: #eafaea;
+}
+
+.footer {
+	background-color: black;
+	text-align: center;
+	color: white;
+	font-family: "Georgia", serif;
+	padding-top: 50px;
+	padding-bottom: 60px;
+
+
+}	
+
+
+
+
