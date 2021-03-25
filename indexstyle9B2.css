@@ -3,18 +3,28 @@
 }
 
 .container {
-	background-color: #eef7f4;
+	background-color: none;
 	text-align: center;
 	color: #316856;
 	font-family: "Georgia", serif;
-	
+
 	
 }
+
+
 /*
 .row {
 	padding: 50px;
 }
+
+div.background {
+  background: url(lampi.jpg);
+}
 */
+
+/* colors #eef7f4; #b9dfd4; #316856; <p><img class="rounded-circle" src="https://github.com/kumkvatti/kumkvatti.github.io/blob/main/logo.jpg?raw=true" alt="logo" width="150"></p> /*
+
+/* background-image: url('ruoho.jpg'); */
 
 .jumbotron {
 	background-image: url('ruoho4.jpg');
@@ -24,6 +34,7 @@
 	font-family: "Georgia", serif;
 	padding-top: 100px;
 	padding-bottom: 100px;
+
 }
 
 ul {
@@ -67,8 +78,9 @@ body {
 	padding-top: 50px;
 	padding-bottom: 60px;
 
+
 }	
 
-/* colors #eef7f4; #b9dfd4; #316856; <p><img class="rounded-circle" src="https://github.com/kumkvatti/kumkvatti.github.io/blob/main/logo.jpg?raw=true" alt="logo" width="150"></p> /*
 
-/* background-image: url('ruoho.jpg'); /*
+
+

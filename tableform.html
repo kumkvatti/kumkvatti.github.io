@@ -11,28 +11,41 @@
 
 <body>
 
-Add a table in to  HTML document using table, tr, th ja td elements. 
-Use (colspan/rowspan) to combine cells. Add at least 5 rows and 3 
-columns of data.
+<h1>Book club of Norfolk</h1>
+
+<!-- testing -->
 
 <table>
+
+	<caption>Table of characters who might have murdered Archibald Whitcliff</caption>
+	
 	<tr>
 	<th colspan="6">Murder suspects</th>
 	</tr>
+	
+
+
+
  <tr>
+	<th>Alibi?</th>
     <th>First name</th>
     <th>Last name</th> 
     <th>Profession</th>
 	<th>Likes</th>
 	<th>Dislikes</th>
   </tr>
+ 
+
+ 
   <tr>
+	<td rowspan="4" id="noalibi">No alibi</td>
     <td>Ruth</td>
     <td>Galloway</td> 
     <td>forensic archaeologist</td>
 	<td>cats</td>
 	<td>organized religion</td>
   </tr>
+  
   <tr>
     <td>Michael</td>
     <td>Malone</td> 
@@ -40,13 +53,15 @@ columns of data.
 	<td>nature</td>
 	<td>rules</td>
   </tr>
+  
   <tr>
     <td>Harry</td>
     <td>Nelson</td> 
     <td>detective chief inspector</td>
-	<td>driving fast</td>
+	<td>solving crimes</td>
 	<td>the countryside</td>
   </tr>
+  
     <tr>
     <td>David</td>
     <td>Glough</td> 
@@ -54,22 +69,123 @@ columns of data.
 	<td>food</td>
 	<td>political correctness</td>
   </tr>
-    </tr>
+  
+
+
     <tr>
+	<td rowspan="4" id="poor">Poor alibi</td>
     <td>Michelle</td>
     <td>Nelson</td> 
     <td>hairdresser</td>
 	<td>exercising</td>
 	<td>confrontation</td>
   </tr>
+
+ <tr>
+    <td>Judy</td>
+    <td>Johnson</td> 
+    <td>detective inspector</td>
+	<td>driving fast</td>
+	<td>sexism</td>
+  </tr>
+  
+  <tr>
+    <td>Shona</td>
+    <td>Maclean</td> 
+    <td>lecturer</td>
+	<td>parties</td>
+	<td>being ignored</td>
+  </tr>
+  
+  <tr>
+    <td>Kate</td>
+    <td>Galloway</td> 
+    <td>schoolchild</td>
+	<td>ponies</td>
+	<td>going to bed early</td>
+  </tr>
+  
 </table>
 
 
+<fieldset>
+<legend>I want to buy</legend>
+	<div>
+		<input type="checkbox" name="book1" id="buyfirst">
+		<label for="buyfirst">Book 1</label>
+		<input type="checkbox" name="book2" id="buysecond">
+		<label for="buysecond">Book 2</label>
+		<input type="checkbox" name="book3" id="buythird">
+		<label for="buythird">Book 3</label>
+	</div>
+</fieldset>
+
+<fieldset>
+<legend>Choose a book format:</legend>
+<form>
+  <label for="bookformat">Choose a format:</label>
+  <select name="bookformat" id="bookformat">
+    <option value="paperback">paperback</option>
+    <option value="ebook">ebook</option>
+    <option value="audiobook">audiobook</option>
+  </select>
+</form>
+</fieldset>
+
+<fieldset>
+<legend>I have read the books before</legend>
+  <div>
+    <input type="radio" name="format" id="yes" value="yes" checked>
+    <label for="yes">Yes</label>
+  </div>
+  <div>
+    <input type="radio" name="format" id="no" value="no">
+    <label for="no">No</label>
+  </div>
+    <div>
+    <input type="radio" name="format" id="maybe" value="maybe">
+    <label for="maybe">I don't remember</label>
+  </div>
+</fieldset>
 
 
 
 
+<fieldset>
+<legend>Who do you think is the murderer? Why?</legend>
+<form>
+<textarea id="fback" name="feedback" rows="4" cols="80">
+ 
+</textarea>
 
+</form>
+</fieldset>
+
+
+<fieldset>
+<legend>Tell us how to reach you</legend>
+<form>
+  
+ 
+	<label for="firstname">First name:</label>
+	<br>
+	<input type="text" id="firstname" name="firstname" required>
+	<br>
+	<label for="lastname">Last name:</label>
+	<br>
+	<input type="text" id="lastname" name="lastname" required>
+	<br>
+	<label for="email">E-mail:</label>
+	<br>
+	<input type="email" id="email" name="email" required>
+	<br>
+	<label for="date">Date of birth:</label>
+	<br>
+	<input type="date" id="date" name="date" required>
+	<br>
+	<input type="submit" value="ADD NEW USER">
+</form> 
+</fieldset>
 
 </body>
 </html>		
