@@ -9,17 +9,29 @@ a:hover {
 }
 
 body  {
-	background-color: #fffaf0;
+	background-color: #white;
+	font-family: ;
 }
 
-.navbar {
-	background-color: #404040;
+.carousel-inner img {
+    width: 100%;
+    height: 100%;
+  }
+
+.carousel-inner {
+	background-color: black;
+	color: red;
 }
 
+
+h1 {
+	font-size: 60px;
+}
 
 
 .footer {
-	background-color: #80ff80;
+	background-color: #343a40;
+	color: white;
 }
 
 .jumbotron {
@@ -78,7 +90,7 @@ tr:hover {
 /* Yhteystiedot */
 
 #tieto {
-	width: 50%;
+	width: 100%;
 	padding: 15px;
 	margin: 10px;
 	font-size: 15px;
@@ -98,21 +110,21 @@ input[type=radio] {
 }
 
 input[type=text] {
-	width: 50%;
+	width: 100%;
 	padding: 15px;
 	margin: 10px;
 	font-size: 15px;
 }
 
 input[type=email] {
-	width: 50%;
+	width: 100%;
 	padding: 15px;
 	margin: 10px;
 	font-size: 15px;
 }
 
 input[type=date] {
-	width: 50%;
+	width: 100%;
 	padding: 15px;
 	margin: 10px;
 	font-size: 15px;
