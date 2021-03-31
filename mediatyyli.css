@@ -1,7 +1,42 @@
 .container {
-	background-color: lightgrey;
-	padding: 40px;
+	padding: 80px;
 }
+.row {
+	padding-top: 40px;
+	padding-right: 40px;
+	padding-bottom: 40px;
+}
+
+.footer {
+	background-color: green;
+}
+
+
+/* Etusivu */
+
+
+/* Terapiamuodot */
+
+
+/* Hinnasto */
+
+
+#slideshow {
+	padding-top: 60px;
+	padding-bottom: 60px;
+	
+}
+
+.table {
+	padding-top: 60px;
+	padding-bottom: 60px;
+}
+
+tr:hover {
+	background-color: green;
+	}
+	
+/* Yhteystiedot */
 
 #tieto {
 	width: 50%;
@@ -9,7 +44,6 @@
 	margin: 10px;
 	font-size: 15px;
 }
-
 
 legend {
 	font-size: 25px;
