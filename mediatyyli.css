@@ -1,4 +1,7 @@
-
+.container {
+	background-color: lightgrey;
+	padding: 40px;
+}
 
 #tieto {
 	width: 50%;
@@ -7,11 +10,6 @@
 	font-size: 15px;
 }
 
-fieldset {
-	margin: 50px;
-	padding: 20px;
-	
-}
 
 legend {
 	font-size: 25px;
