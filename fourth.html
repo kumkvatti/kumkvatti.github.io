@@ -40,7 +40,7 @@
 
 
 	<div class="jumbotron">
-		<h1><img class="img-fluid" id="round" src="kuva01.jpg"> Koiraterapia Mauno</h1> 
+		<h1><img class="img-fluid" id="round" src="kuva01.jpg" alt="logo"> Koiraterapia Mauno</h1> 
 	</div>
 
 
@@ -51,7 +51,7 @@
 				<p><a href="mailto:polunlaita@metsanreuna.fi">polunlaita@metsänreuna.fi</a></p>
 				<p>Pendle Hill, UK</p>
 			<div class="map-responsive">
-				<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d18820.443068192882!2d-2.3160650475438844!3d53.86855372586347!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x487b906d57126361%3A0xce8a03c948ba4a9d!2sPendle%20Hill!5e0!3m2!1sen!2sfi!4v1617170888786!5m2!1sen!2sfi" width="600" height="450" frameborder="0" style="border:0" allowfullscreen></iframe>
+				<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d18820.443068192882!2d-2.3160650475438844!3d53.86855372586347!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x487b906d57126361%3A0xce8a03c948ba4a9d!2sPendle%20Hill!5e0!3m2!1sen!2sfi!4v1617170888786!5m2!1sen!2sfi" ></iframe>
 			</div>
 		</div>
 
@@ -60,7 +60,7 @@
 				<div class="form-group">
 					<label for="tieto">Mistä haluat lisätietoa</label>
 						<select name="tieto" class="form-control" id="tieto">
-							<option value="eimtn">   </option>
+							<option value="eimtn" style="color:white;">Valitse</option>
 							<option value="ajanvaraus">Ajanvaraus</option>
 							<option value="terapiaohjelma">Yksilöllinen terapiaohjelma</option>
 							<option value="terveysvaikutukset">Koiraterapian terveysvaikutukset</option>
@@ -83,14 +83,14 @@
 						<input type="date" class="form-control" id="date" name="date">
 				</div>
 				<div class="form-group">
-						<label  for="radio">Toivottu yhteydenottotapa*</label>
+						<label for="yes">Toivottu yhteydenottotapa*</label>
 					<div>
-						<input type="radio" name="format" id="sp" value="sp" checked>
-							<label for="sp" style="font-weight:normal;">Sähköposti</label>
+						<input type="radio" name="format" id="yes" value="yes" checked>
+							<label for="yes">Sähköposti</label>
 					</div>
 					<div>
-						<input type="radio" name="format" id="puh" value="puh">
-							<label for="puh" style="font-weight:normal;">Puhelin</label>
+						<input type="radio" name="format" id="no" value="no">
+							<label for="no">Puhelin</label>
 					</div>
 				</div>
 				<div class="form-group">
