@@ -4,7 +4,6 @@
 a {
 	font-weight: bold;
 	color: LimeGreen;
-
 }
 
 a:hover {
@@ -29,9 +28,9 @@ body  {
 /*fontit*/
 
 h1 {
-	padding-top: 80px;
 	font-size: 60px;
-	font-weight: lighter;
+	color: white;
+	text-shadow: 2px 2px 4px #000000;
 }
 
 
@@ -44,7 +43,10 @@ h5 {
 }
 
 
-
+.carousel-caption {
+	color: white;
+	text-shadow: 2px 2px 4px #000000;
+}
 
 
 
@@ -54,7 +56,7 @@ h5 {
 	padding: 40px;
 }
 
-ul {
+#lista {
 	padding-bottom: 40px;
 	padding-top: 20px;
 }
