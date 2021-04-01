@@ -55,12 +55,12 @@
 			</div>
 		</div>
 
-		<h3 id="terapeutti">Jätä yhteydenottopyyntö</h3>
+		<h3 id="terapeutti">Yhteydenottopyyntö</h3>
 			<form>
 				<div class="form-group">
 					<label for="tieto">Mistä haluat lisätietoa</label>
-						<select name="tieto" class="form-control" id="tieto">
-							
+						<select name="tieto" id="tieto">
+							<option value="valitse">Valitse</option>
 							<option value="ajanvaraus">Ajanvaraus</option>
 							<option value="terapiaohjelma">Yksilöllinen terapiaohjelma</option>
 							<option value="terveysvaikutukset">Koiraterapian terveysvaikutukset</option>
@@ -68,19 +68,23 @@
 				</div>
 				<div class="form-group">
 					<label  for="firstname">Etunimi*</label>
-						<input type="text" class="form-control" id="firstname" name="firstname" required>
+						<input type="text" id="firstname" name="firstname" required>
 				</div>
 				<div class="form-group">
 					<label  for="lastname">Sukunimi*</label>
-						<input type="text" class="form-control" id="lastname" name="lastname" required>
+						<input type="text" id="lastname" name="lastname" required>
 				</div>
 				<div class="form-group">
 					<label  for="email">Sähköposti*</label>
-						<input type="email" class="form-control" id="email" name="email" required>
+						<input type="email" id="email" name="email" required>
+				</div>
+				<div class="form-group">
+					<label  for="numero">Puhelinnumero*</label>
+						<input type="text" id="numero" name="numero" required>
 				</div>
 				<div class="form-group">
 					<label for="date">Toivottu yhteydenoton ajankohta</label>
-						<input type="date" class="form-control" id="date" name="date">
+						<input type="date" id="date" name="date">
 				</div>
 				<div class="form-group">
 						<label for="yes">Toivottu yhteydenottotapa*</label>
