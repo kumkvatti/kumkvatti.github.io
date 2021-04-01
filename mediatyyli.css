@@ -56,14 +56,19 @@ h3 {
 .container {
 	padding: 80px;
 }
+
+
+
+/* Etusivu 
+
+
 .row {
 	padding-top: 40px;
 	padding-right: 40px;
 	padding-bottom: 40px;
 }
 
-
-/* Etusivu */
+*/
 
 
 /* Terapiamuodot */
@@ -72,11 +77,7 @@ h3 {
 /* Hinnasto */
 
 
-#slideshow {
-	padding-top: 60px;
-	padding-bottom: 60px;
-	
-}
+
 
 .table {
 	padding-top: 60px;
