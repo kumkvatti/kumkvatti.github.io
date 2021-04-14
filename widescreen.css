@@ -12,16 +12,14 @@ a:hover {
 	
 }
 
-.navbar {
-	margin-bottom: 0;
-} 
+
 
 .jalka {
 	color: white;
 }
 
 .jumbotron {
-	
+	padding-top: 100px;
 	background-color: #4dff4d;
 }
 

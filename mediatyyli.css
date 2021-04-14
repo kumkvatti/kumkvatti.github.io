@@ -16,12 +16,10 @@ a:hover {
 }
 
 .jumbotron {
+	padding-top: 100px;
 	background-color: #4dff4d;
 }
 
-.navbar {
-	margin-bottom: 0;
-} 
 
 
 p {
