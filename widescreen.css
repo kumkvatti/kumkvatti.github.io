@@ -9,13 +9,19 @@ a:hover {
 
 .footer {
 	background-color: #343a40;
+	
 }
+
+.navbar {
+	margin-bottom: 0;
+} 
 
 .jalka {
 	color: white;
 }
 
 .jumbotron {
+	
 	background-color: #4dff4d;
 }
 
